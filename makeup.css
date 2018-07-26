@@ -1,0 +1,24 @@
+body{
+height:50vh;
+width:100vw;
+background-color:grey;
+display:flex;
+flex-wrap:wrap;
+}
+.text{
+  font-size:60px;
+}
+.row{
+  height:50vh;
+  width:25vw;
+  display:block;
+}
+.row2{
+  height:50vh;
+  width:25vw;
+  display:block;
+}
+.head{
+  height:40vh;
+  width:100vw;
+}
