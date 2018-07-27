@@ -1,2 +1,6 @@
 # girlswithfashion
-#denise
+Domonique
+Ajai
+Amyah
+Belen
+Denise
