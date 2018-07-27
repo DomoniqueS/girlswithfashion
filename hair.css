@@ -1,6 +1,6 @@
 body{
-
-background-color: rgb(226, 238, 238);
+display:block;
+background-color: orange;
 }
 
 
@@ -16,6 +16,8 @@ background-color: rgb(226, 238, 238);
     width:99.375%;
     width:-webkit-calc(100% - 2px);
     width:calc(100% - 2px);
+
+
 }
 
 #insta{
