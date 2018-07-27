@@ -3,7 +3,6 @@ background-color:beige;
 
 }
 h1{
-  font-family: 'League Script', cursive;
   font-size: 70px;
   color: white;
   /* background-color: #FFFF00 */
@@ -12,12 +11,18 @@ p{
   font-family: 'Libre Barcode 128 Text', cursive;
   font-size: 40px
 }
-#header{
+#header1{
+  font-family:'League Script', cursive;
+
   width:auto;
   padding-top: 0;
   height: 150px;
 background-image: url("header.jpg");
 background-size: cover;
 margin: 0;
+
+}
+.mySlides{
+width:250px; height:auto;
 
 }
