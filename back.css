@@ -1,9 +1,9 @@
 body{
-height:50vh;
+height:90vh;
 width:100vw;
 display:flex;
 flex-wrap:wrap;
-background-color:#DEB887;
+background-color: #DEB887;
 }
 .hover:hover {
 	box-shadow: 0px 0px 150px #000;
@@ -22,20 +22,42 @@ background-color:#DEB887;
 	transform: scale(0.99, 0.99);
 }
 
+.container {
+    position: relative;
+    text-align: center;
+    color:black;
+}
 .text{
   font-family:Shrikhand;
   font-size:60px;
+	padding:20px;
+	margin-left:35px;
 }
 .head{
-  height:40vh;
+  height:10vh;
   width:100vw;
+	
 }
-.col-1{
-  height:50vh;
-  width:25vw;
-  display:flex;
-  flex-wrap: wrap;
+.fashion{
+  height:40vh;
+  width:55vw;
+  display:inline-flex;
 }
-.row{
-  background-image:url("red.jpg");
+
+.shoes{
+  height:40vh;
+  width:55vw;
+  display:inline-flex;
+}
+
+.makeup{
+  height:40vh;
+  width:55vw;
+  display:inline-flex;
+}
+
+.hair{
+	height:40vh;
+	width:55vw;
+	display:inline-flex;
 }
