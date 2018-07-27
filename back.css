@@ -1,0 +1,41 @@
+body{
+height:50vh;
+width:100vw;
+display:flex;
+flex-wrap:wrap;
+background-color:#DEB887;
+}
+.hover:hover {
+	box-shadow: 0px 0px 150px #000;
+	z-index: 2;
+	-ms-transition: all 200ms ease-in;
+	-ms-transform: scale(1.01);
+	-moz-transition: all 200ms ease-in;
+	-moz-transform: scale(1.01);
+	transition: all 200ms ease-in;
+	transform: scale(1.01);
+	overflow: visible;
+	cursor: pointer;
+}
+
+.box:active {
+	transform: scale(0.99, 0.99);
+}
+
+.text{
+  font-family:Shrikhand;
+  font-size:60px;
+}
+.head{
+  height:40vh;
+  width:100vw;
+}
+.col-1{
+  height:50vh;
+  width:25vw;
+  display:flex;
+  flex-wrap: wrap;
+}
+.row{
+  background-image:url("red.jpg");
+}
