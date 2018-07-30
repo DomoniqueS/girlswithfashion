@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
 padding: 0;
 margin:0;
@@ -201,3 +202,29 @@ flex-wrap:wrap;
     margin: 10px auto;
 
   }
+=======
+body2{
+height:50vh;
+width:100vw;
+background-color:grey;
+display:flex;
+flex-wrap:wrap;
+}
+.text2{
+  font-size:60px;
+}
+.row{
+  height:50vh;
+  width:25vw;
+  display:block;
+}
+.row2{
+  height:50vh;
+  width:25vw;
+  display:block;
+}
+.head2{
+  height:40vh;
+  width:100vw;
+}
+>>>>>>> b2933b6f9cacb5a0fb0d866838e0182181bae91c
