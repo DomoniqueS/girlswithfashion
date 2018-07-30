@@ -1,10 +1,9 @@
-body4{
+body{
 height:200vh;
 width:100vw;
 font-family: 'ABeeZee', sans-serif;
  background-color: black;
-color: white;
-}
+color: white;}
 
 #hello{
   background-color: black;
@@ -24,5 +23,3 @@ p{
 .title{
   font-size: 60px;
 }
-
-
