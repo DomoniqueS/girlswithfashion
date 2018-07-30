@@ -1,5 +1,5 @@
 body{
-height:90vh;
+height:80vh;
 width:100vw;
 display:flex;
 flex-wrap:wrap;
@@ -30,34 +30,16 @@ background-color: #DEB887;
 .text{
   font-family:Shrikhand;
   font-size:60px;
-	padding:20px;
-	margin-left:35px;
+	padding:15px;
+
 }
 .head{
   height:10vh;
   width:100vw;
-	
+
 }
-.fashion{
+.page{
   height:40vh;
   width:55vw;
   display:inline-flex;
-}
-
-.shoes{
-  height:40vh;
-  width:55vw;
-  display:inline-flex;
-}
-
-.makeup{
-  height:40vh;
-  width:55vw;
-  display:inline-flex;
-}
-
-.hair{
-	height:40vh;
-	width:55vw;
-	display:inline-flex;
 }
