@@ -4,7 +4,33 @@
 <head>
   <title>Hair</title>
 <link rel="stylesheet" href="hair.css"</link>
-  
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+</style>
+
 </head>
 
 
@@ -81,6 +107,34 @@
 <p><h2>2. Miss Jessie's Pillow Soft Curls<h2><a href = "https://www.target.com/p/miss-jessie-s-174-pillow-soft-curls-153-8-5-fl-oz/-/A-14213373?sid=1329S&ref=tgt_adv_XS000000&AFID=google_pla_df&CPNG=PLA_Health+Beauty+Shopping_Local&adgroup=SC_Health+Beauty&LID=700000001170770pgs&network=g&device=c&location=9041427&gclid=CjwKCAjw7vraBRBbEiwA4WBOnwS0Dzh4aI_qO6c0QdtPzpDsyhVZK32uoi1ieVjt6FFBBmXvF3jc0hoCCKUQAvD_BwE&gclsrc=aw.ds"><img src="HairImages/Pillow.jpg" width="100" height="100"></a>$22.49<p>
 <p><h2>3. Mielle Organics Babassu Oil Sulfate Free Shampoo<h2><a href = "https://www.target.com/p/mielle-organics-babassu-oil-conditioning-sulfate-free-shampoo-8-fl-oz/-/A-50661863?ref=tgt_adv_XS000000&AFID=google_pla_df&CPNG=PLA_Health+Beauty+Shopping&adgroup=SC_Health+Beauty&LID=700000001170770pgs&network=g&device=c&location=9030970&gclid=CjwKCAjw7vraBRBbEiwA4WBOn-4PFuBt5ngZHEMWZ4JQ316-HfudyKfybVIuf99hccHqB3pR7YnzDhoC540QAvD_BwE&gclsrc=aw.ds"><img src="HairImages/MO2.jpg" width="100" height="100"></a> $12.99<p>
 <p><h2>4. Camille Rose Algae Renew Deep Conditioner<h2><a href = "https://www.target.com/p/camille-rose-algae-deep-conditioner-8oz/-/A-14441396?ref=tgt_adv_XS000000&AFID=google_pla_df&CPNG=PLA_Health+Beauty+Shopping&adgroup=SC_Health+Beauty&LID=700000001170770pgs&network=g&device=c&location=9041427&gclid=CjwKCAjw7vraBRBbEiwA4WBOn1aIb31yIiN8C2-eBQ1RWQomsQupeavcR3rSZ7XRY58uqF9Tmf5cGhoC90YQAvD_BwE&gclsrc=aw.ds"><img src="HairImages/CR.jpg" width="100" height="100"></a> $17.29<p>
+
+  <body>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+  
+  <script>
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("myBtn").style.display = "block";
+      } else {
+          document.getElementById("myBtn").style.display = "none";
+      }
+  }
+
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+  }
+  </script>
+
+  </body>
+
+
 
 </body>
 
