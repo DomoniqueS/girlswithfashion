@@ -3,7 +3,8 @@ height:200vh;
 width:100vw;
 font-family: 'ABeeZee', sans-serif;
  background-color: black;
-color: white;}
+color: white;
+}
 
 #hello{
   background-color: black;
@@ -24,7 +25,4 @@ p{
   font-size: 60px;
 }
 
-.ul{
- font-size:40px;
- font-color:red;
-}
+
