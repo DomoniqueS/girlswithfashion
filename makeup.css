@@ -7,9 +7,20 @@ background-repeat: no-repeat;
 background-size: auto;
 background-position: center center;
 background-image: none;
-
-
 }
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: RoyalBlue;
+}
+
 
 #starshine {
   position: absolute;
